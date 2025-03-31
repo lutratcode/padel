@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réservation Padel</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <header>
         <div class="logo">PADEL Houdan</div>
-         
+
 
         <nav>
             <ul class="nav-links">
@@ -21,8 +23,8 @@
             </ul>
             <div class="menu-toggle">&#9776;</div>
         </nav>
-           <!-- Section Utilisateur -->
-           <div class="user-section">
+        <!-- Section Utilisateur -->
+        <div class="user-section">
             <button id="signInBtn" class="btn sign-in">Se connecter</button>
             <button id="signOutBtn" class="btn sign-out hidden">Se déconnecter</button>
         </div>
@@ -52,10 +54,10 @@
         <form>
             <label for="date">Date :</label>
             <input type="date" id="date" required>
-            
+
             <label for="heure">Heure :</label>
             <input type="time" id="heure" required>
-            
+
             <label for="terrain">Sélectionnez un terrain :</label>
             <select id="terrain">
                 <option value="1">Terrain 1</option>
@@ -79,7 +81,7 @@
             navLinks.classList.toggle("active");
         });
 
-      
+
         // Simulation de connexion/déconnexion
         const signInBtn = document.getElementById('signInBtn');
         const signOutBtn = document.getElementById('signOutBtn');
@@ -95,8 +97,9 @@
             signInBtn.classList.remove('hidden');
             alert('Vous êtes déconnecté.');
         });
-   
+
     </script>
 
 </body>
+
 </html>

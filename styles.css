@@ -4,28 +4,30 @@
     box-sizing: border-box;
 }
 
- html body {
+html body {
     width: 100%;
     height: 100%;
- }
+}
 
- ol, ul {
+ol,
+ul {
     list-style: none;
- }
+}
 
- a {
+a {
     text-decoration: none;
     color: indianred;
- }
- .nav-links {
+}
+
+.nav-links {
     list-style: none;
     padding-left: 0;
     color: white;
     display: none;
- }
+}
 
- /* --- Header --- */
- header {
+/* --- Header --- */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +35,7 @@
     background: #2c3e50;
     color: white;
 }
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -44,7 +47,8 @@ nav {
 }
 
 .nav-links {
-    list-style: none; /* Supprime les puces */
+    list-style: none;
+    /* Supprime les puces */
     display: flex;
     gap: 20px;
     padding: 0;
@@ -62,7 +66,7 @@ nav {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: url('https://github.com/dev-lulu-maker/padel/blob/main/image/padel.webp') no-repeat center/cover;
+    background: url('/images/padel.webp') no-repeat center/cover;
     color: white;
 }
 
@@ -111,6 +115,7 @@ nav {
 .hidden {
     display: none;
 }
+
 /* --- Section Présentation --- */
 .presentation {
     text-align: center;
@@ -213,5 +218,3 @@ footer {
         padding: 8px 15px;
     }
 }
-
-
